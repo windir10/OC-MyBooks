@@ -43,7 +43,7 @@ class Author {
 	 * 
 	 * @param integer $id Author's id
 	 * 
-	 * @return Author Return the current author object
+	 * @return \MyBooks\Domain\Author Return the current author object
 	 */
 	public function setId($id) {
 		$this->id = $id;
@@ -64,7 +64,7 @@ class Author {
 	 * 
 	 * @param string $firstName Author's first name
 	 * 
-	 * @return Author Return the current author object
+	 * @return \MyBooks\Domain\Author Return the current author object
 	 */
 	public function setFirstName($firstName) {
 		$this->firstName = $firstName;
@@ -85,7 +85,7 @@ class Author {
 	 * 
 	 * @param string $lastName Author's last name
 	 * 
-	 * @return Author Return the current author object
+	 * @return \MyBooks\Domain\Author Return the current author object
 	 */
 	public function setLastName($lastName) {
 		$this->lastName = $lastName;

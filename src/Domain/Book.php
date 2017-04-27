@@ -57,7 +57,7 @@ class Book {
 	 * 
 	 * @param integer $id Book's id
 	 * 
-	 * @return Book Return the current book object
+	 * @return \MyBooks\Domain\Book Return the current book object
 	 */
 	public function setId($id) {
 		$this->id = $id;
@@ -78,7 +78,7 @@ class Book {
 	 * 
 	 * @param string $title Book's title
 	 * 
-	 * @return Book Return the current book object
+	 * @return \MyBooks\Domain\Book Return the current book object
 	 */
 	public function setTitle($title) {
 		$this->title = $title;
@@ -99,7 +99,7 @@ class Book {
 	 * 
 	 * @param string $isbn Book's isbn
 	 * 
-	 * @return Book Return the current book object
+	 * @return \MyBooks\Domain\Book Return the current book object
 	 */
 	public function setIsbn($isbn) {
 		$this->isbn = $isbn;
@@ -120,7 +120,7 @@ class Book {
 	 * 
 	 * @param string $summary Book's summary
 	 * 
-	 * @return Book Return the current book object
+	 * @return \MyBooks\Domain\Book Return the current book object
 	 */
 	public function setSummary($summary) {
 		$this->summary = $summary;
@@ -141,7 +141,7 @@ class Book {
 	 * 
 	 * @param \MyBooks\Domain\Author $author Book's author object
 	 * 
-	 * @return Book Return the current book object
+	 * @return \MyBooks\Domain\Book Return the current book object
 	 */
 	public function setAuthor(Author $author) {
 		$this->author = $author;
